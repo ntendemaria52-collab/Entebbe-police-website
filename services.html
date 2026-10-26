@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SERVICES - ENTEBBE POLICE FORCE</title>
+    <link rel="stylesheet"href="style.css">
+</head>
+<body>
+    <div class ="container">
+        <main>
+        <header>
+            <div class ="header section">
+                <h1>ENTEBBE POLICE FORCE</h1>
+                <img src="Images/logo.png "class="logo"alt="Entebbe Police Force Logo">
+            </div>
+            <div class ="search-box">
+                <input type="text"placeholder="Search...">
+                <button type="button">Search</button>
+            </div>
+        </header>
+    <nav>
+        <table class="nav-bar">
+            <tr>
+                <td><a href="index.html">HOME</a></td>
+                <td><a href="about.html">ABOUT US</a></td>
+                <td><a href="services.html">SERVICES</a></td>
+                <td><a href="gallery.html">GALLERY</a></td>
+                <td><a href="contact.html">CONTACT</a></td>
+            </tr>
+        </table>
+    </nav>
+    <main class="service-page">
+    <h2>OUR SERVICES</h2>
+    <div class="services-grid">
+        <div class="service">
+            <h3>REPORT A CRIME</h3>
+            <p>Report asault ,theft,or at the nearest police station</p>
+
+        </div>
+        <div class="service">
+            <h3>ROAD ACCIDENT REPORT</h3>
+            <p>Get an accident report for insurance and legal claims.</p>
+        </div>
+        <div class="service">
+            <h3>CHILD AND FAMILY PROTECTION</h3>
+            <p>Confidential help for cases of domestic violence and sexual offences</p>
+        </div>
+        <div class="service">
+            <h3>COMPLAINTS AND FEEDBACK</h3>
+            <p>Report police misconduct or share feedback on the services recieved </p>
+        </div>
+
+    </div>
+    <h2 id="documents">PUBLIC DOCUMENTS</h2>
+    <p class="intro">
+        These are the documents the public can request from the police.
+        Requirements and fees may change,so confirm with the nearest station before you go.
+    </p>
+    <div class="documents">
+        <details>
+            <summary>POLICE BOND</summary>
+            <p><strong>What it is:</strong>A written promise that lets a suspect be released from custody while the case contiues.police bond is free of charge. </p>
+            <p><strong>Bring:</strong>The person's details,a guarantor(surety) with any documents the officer in charge asks for. </p>
+            <p><strong>Where:</strong>The situation where the person is being held. </p>
+        </details>
+        <details>
+            <summary>POLICE FORM 3(PF3)MEDICAL REPORT</summary>
+            <p><strong>What it is:</strong>A medical examination form used when someone is injured injured in an assualt,accident or domestic violence. </p>
+            <p><strong>Bring:</strong>Your ID nad case refrence number from the station.</p>
+            <p><strong>Where:</strong>Get the form from the police then get it filled</p>
+
+        </details>
+        <details>
+            <summary>ACCIDENT REPORT</summary>
+            <p><strong>What it is:</strong> A report of a road accident, needed for insurance and court cases.</p>
+                <p><strong>Bring:</strong> Your ID, driving permit, vehicle details, and the accident reference number.</p>
+                <p><strong>Where:</strong> The traffic police office that handled the case.</p>
+            </details>
+
+            <details>
+                <summary>LOSS REPORT</summary>
+                <p><strong>What it is:</strong> A record that you reported an item as lost, such as an ID, passport, or ATM card. Banks and offices ask for it when replacing items.</p>
+                <p><strong>Bring:</strong> Your ID (or a copy) and a description of the lost item.</p>
+                <p><strong>Where:</strong> Any police station.</p>
+            </details>
+    </div>
+     </main>  
+    
+    <footer>
+
+    <div class="footer-container">
+
+        <!-- COLUMN 1: CONTACT US -->
+    <div class="footer-column">
+                 <h3>Contact Us</h3>
+
+            <p>Tel: +256 700 123456</p>
+            <p>Email: info@entebbepolice.go.ug</p>
+            <p>Location: Entebbe, Uganda</p>
+    </div>
+
+        <!-- COLUMN 2: QUICK LINKS -->
+    <div class="footer-column">
+            <h3>Quick Links</h3>
+
+            <a href="index.html">HOME</a>
+            <a href="aboutus.html">ABOUT US</a>
+            <a href="services.html">SERVICES</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT</a>
+    </div>
+
+        <!-- COLUMN 3: FOLLOW US -->
+    <div class="footer-column">
+            <h3>Follow Us</h3>
+
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.whatsapp.com/">WhatsApp</a>
+    </div>
+
+    </div>
+
+    <!-- FOOTER BOTTOM -->
+    <div class="footer-bottom">
+        <p>
+            &copy; 2026 Entebbe Police Force.
+            All Rights Reserved.
+        </p>
+
+        <p>Designed by Entebbe Police Web Team.</p>
+    </div>
+
+    
+</body>
+</html>
+<style>
+    .services-page{
+        flex:1;
+        width:100%;
+        max-width:1100px;
+        margin:0 auto;
+        padding: 2.5rem 1.5rem 3rem;
+    h2{
+        text-align: center;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    }
+    .services-pageh2{
+        margin:2.5rem 0 1.25rem;
+    }
+    .emergency{
+        padding: 0.9rem 1.25rem;
+        text-align: center;
+        background-color: white;
+        border-left:5px solid var(--gold);
+
+    }
+    .services-grid{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:1.25rem;
+        background-color: lightblue;
+    }
+    .services{
+        padding:1.25rem;
+        background:var(--white);
+        border: 1px solid var(--line);
+        border-top:4px solid var (--gold);
+    }
+    .service h3{
+        margin:000.5rem;
+        color:var(--navy)
+    }
+    .service p{
+        margin:0;
+    }
+    .intro{
+        max-width:800px;
+        margin:0 auto;
+    }
+    .documents details{
+        margin-bottom: 0.75rem;
+        background: var(--white);
+        border:1px solid var(--line);
+        border-left: 4px solid var(--navy);
+
+    }
+    .documents summary{
+        padding:0.9rem 1.1rem;
+        font-weight: 600;
+        color: var(--navy);
+        cursor: pointer;
+    }
+    .documents details p {
+        margin:0;
+        padding:0.6rem 1.1rem;
+    }
+    
+    
+    
+
+</style>
